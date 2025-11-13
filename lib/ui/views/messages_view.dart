@@ -1058,19 +1058,19 @@ class _MessagesViewState extends State<MessagesView>
       );
     }
 
-    if (model.message.isPinAlert) {
-      return ChatUIKitMessageListViewAlertItem(
-        actions: [
-          MessageAlertAction(
-            text: showName,
-            type: MessageAlertActionType.heightLight,
-          ),
-          MessageAlertAction(
-            text: ChatUIKitLocal.alertPinTitle.localString(context),
-          ),
-        ],
-      );
-    }
+    // if (model.message.isPinAlert) {
+    //   return ChatUIKitMessageListViewAlertItem(
+    //     actions: [
+    //       MessageAlertAction(
+    //         text: showName,
+    //         type: MessageAlertActionType.heightLight,
+    //       ),
+    //       MessageAlertAction(
+    //         text: ChatUIKitLocal.alertPinTitle.localString(context),
+    //       ),
+    //     ],
+    //   );
+    // }
 
     if (model.message.isUnPinAlert) {
       return ChatUIKitMessageListViewAlertItem(
