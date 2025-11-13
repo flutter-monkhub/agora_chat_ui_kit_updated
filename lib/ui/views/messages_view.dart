@@ -1040,10 +1040,10 @@ class _MessagesViewState extends State<MessagesView>
           .getProfile(ChatUIKitProfile.contact(id: operator!));
       return ChatUIKitMessageListViewAlertItem(
         actions: [
-          // MessageAlertAction(
-          //   text: "💬 Chat started — say hi!",
-          //   type: MessageAlertActionType.heightLight,
-          // ),
+          MessageAlertAction(
+            text: "💬 Chat started — say hi!",
+            type: MessageAlertActionType.heightLight,
+          ),
           // MessageAlertAction(
           //   text: ChatUIKitLocal.alertAlreadyAdd.localString(context),
           // ),
