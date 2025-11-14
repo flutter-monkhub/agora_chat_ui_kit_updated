@@ -259,7 +259,7 @@ class _ChatUIKitListViewState extends State<ChatUIKitListView>
           clipBehavior: Clip.hardEdge,
           decoration: BoxDecoration(
             borderRadius:
-                BorderRadius.circular(CornerRadiusHelper.searchBarRadius(36)),
+                BorderRadius.circular(16),
             color: theme.color.isDark
                 ? theme.color.neutralColor2
                 : theme.color.neutralColor95,
@@ -268,7 +268,8 @@ class _ChatUIKitListViewState extends State<ChatUIKitListView>
                   ? theme.color.neutralColor6
                   : theme.color.neutralColor9,
               width: 1,
-            )
+            ),
+            
           ),
           height: 36,
           child: Center(
