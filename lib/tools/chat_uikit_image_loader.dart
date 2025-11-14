@@ -125,7 +125,7 @@ class ChatUIKitImageLoader {
       height: height,
       image:
           AssetImage('assets/images/input_bar_voice.png', package: packageName),
-      // fit: BoxFit.fill,
+      fit: BoxFit.fill,
     );
   }
 
