@@ -90,10 +90,11 @@ class ChatUIKitMessageStatusWidget extends StatelessWidget {
     return Icon(
       Icons.done_all,
       size: size,
-      color: color ??
-          (theme.color.isDark
-              ? theme.color.secondaryColor5
-              : theme.color.secondaryColor4),
+      color: Colors.green,
+      // color ??
+      //     (theme.color.isDark
+      //         ? theme.color.secondaryColor5
+      //         : theme.color.secondaryColor4),
     );
   }
 
