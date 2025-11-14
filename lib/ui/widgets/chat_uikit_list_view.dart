@@ -263,11 +263,18 @@ class _ChatUIKitListViewState extends State<ChatUIKitListView>
             color: theme.color.isDark
                 ? theme.color.neutralColor2
                 : theme.color.neutralColor95,
+            border: Border.all(
+              color: theme.color.isDark
+                  ? theme.color.neutralColor6
+                  : theme.color.neutralColor9,
+              width: 1,
+            )
           ),
           height: 36,
           child: Center(
             child: Row(
               mainAxisSize: MainAxisSize.min,
+              mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 ChatUIKitImageLoader.search(
                   width: 22,
