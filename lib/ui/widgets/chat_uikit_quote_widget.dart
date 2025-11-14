@@ -151,7 +151,7 @@ class _ChatUIKitQuoteWidgetState extends State<ChatUIKitQuoteWidget>
         const SizedBox(width: 4),
         Flexible(
           child: Text(
-            ChatUIKitLocal.quoteWidgetTitleImage.localString(context),
+            "Image",
             overflow: TextOverflow.ellipsis,
             textScaler: TextScaler.noScaling,
             maxLines: 1,
@@ -316,7 +316,7 @@ class _ChatUIKitQuoteWidgetState extends State<ChatUIKitQuoteWidget>
         const SizedBox(width: 4),
         Flexible(
           child: Text(
-            ChatUIKitLocal.quoteWidgetTitleVideo.localString(context),
+            "Video",
             textScaler: TextScaler.noScaling,
             overflow: TextOverflow.ellipsis,
             style: TextStyle(
@@ -489,7 +489,7 @@ class _ChatUIKitQuoteWidgetState extends State<ChatUIKitQuoteWidget>
               children: [
                 TextSpan(
                   text:
-                      ChatUIKitLocal.quoteWidgetTitleVoice.localString(context),
+                     "Audio message",
                   style: TextStyle(
                     fontWeight: theme.font.bodySmall.fontWeight,
                     fontSize: theme.font.bodySmall.fontSize,
@@ -566,7 +566,7 @@ class _ChatUIKitQuoteWidgetState extends State<ChatUIKitQuoteWidget>
               children: [
                 TextSpan(
                   text:
-                      ChatUIKitLocal.quoteWidgetTitleFile.localString(context),
+                      "File",
                   style: TextStyle(
                     fontWeight: theme.font.labelSmall.fontWeight,
                     fontSize: theme.font.labelSmall.fontSize,
@@ -642,8 +642,7 @@ class _ChatUIKitQuoteWidgetState extends State<ChatUIKitQuoteWidget>
             text: TextSpan(
               children: [
                 TextSpan(
-                  text: ChatUIKitLocal.quoteWidgetTitleCombine
-                      .localString(context),
+                  text: "Combine",
                   style: TextStyle(
                     fontWeight: theme.font.labelSmall.fontWeight,
                     fontSize: theme.font.labelSmall.fontSize,
@@ -714,8 +713,7 @@ class _ChatUIKitQuoteWidgetState extends State<ChatUIKitQuoteWidget>
               text: TextSpan(
                 children: [
                   TextSpan(
-                    text: ChatUIKitLocal.quoteWidgetTitleContact
-                        .localString(context),
+                    text: "Contact Card",
                     style: TextStyle(
                       fontWeight: theme.font.labelMedium.fontWeight,
                       fontSize: theme.font.labelMedium.fontSize,
@@ -773,7 +771,7 @@ class _ChatUIKitQuoteWidgetState extends State<ChatUIKitQuoteWidget>
 
   Widget _emptyWidget(ChatUIKitTheme theme) {
     return Text(
-      ChatUIKitLocal.quoteWidgetTitleUnFind.localString(context),
+      "Original message not found",
       textScaler: TextScaler.noScaling,
       overflow: TextOverflow.ellipsis,
       style: TextStyle(
