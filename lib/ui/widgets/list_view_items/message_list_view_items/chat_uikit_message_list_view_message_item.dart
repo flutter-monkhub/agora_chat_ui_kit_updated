@@ -170,6 +170,7 @@ class ChatUIKitMessageListViewMessageItem extends StatelessWidget {
                   if (model.message.hasReadAck) {
                     status = MessageStatusType.read;
                   }
+                  print("AGORA STATS : Status of ${model.message.chatType.name} is $status");
                   return status;
                 }
               }(),
