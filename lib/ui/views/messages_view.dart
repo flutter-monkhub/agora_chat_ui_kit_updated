@@ -2585,9 +2585,9 @@ class _MessagesViewState extends State<MessagesView>
           }
         },
         child: ChatUIKitImageLoader.voiceKeyboard(
-          color: theme.color.isDark
-              ? theme.color.neutralColor5
-              : theme.color.neutralColor3,
+          // color: theme.color.isDark
+          //     ? theme.color.neutralColor5
+          //     : theme.color.neutralColor3,
         ),
       ),
     );
